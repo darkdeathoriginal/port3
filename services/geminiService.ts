@@ -42,6 +42,7 @@ export const generatePsychicResponse = async (
       config: {
         systemInstruction,
         maxOutputTokens: 300,
+        thinkingConfig: { thinkingBudget: 0 },
       }
     });
 
